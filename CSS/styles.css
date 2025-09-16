@@ -315,17 +315,11 @@ footer {
   text-align: center;
 }
 
-.ig {
-  font-size: 1em;
-  margin: 0px;
-  color: #e9ee62;
-  display: block;
-  align-items: center;
-  text-align: right;
+.ig-manual {
   text-decoration: none;
-  padding: 0px;
-  position: absolute;
-  bottom: 60px;
+  color: #FFD700;
+  font-weight: bold;
+  margin-top: 0.5rem;
 }
 
 /* RESPONSIVE MANUAL */

@@ -46,6 +46,7 @@
   align-items: flex-start;
   gap: 2rem; /* espacio entre columnas */
   padding: 2rem;
+  color: #f6ecec;
 }
 
 .imagen-manual {
@@ -128,6 +129,10 @@
   align-self: flex-start;
   margin-top: 0px;
   height: 80vh;
+}
+
+.ul-componentes {
+  color: #f6ecec;
 }
 
 /*DISEÑO*/

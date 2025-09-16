@@ -104,6 +104,7 @@
   font-size: 2em;
   font-family:'Times New Roman', Times, serif;
   text-align: center;
+  color: #FFD700;
 }
 
 /*COMPONENTES*/
@@ -111,6 +112,7 @@
 .lista-componentes {
   font-size: 30px;
   margin-bottom: 20px;
+  color: #f6ecec;
 }
 
 .imagen-componentes {
@@ -157,13 +159,14 @@
 .lista-diseño {
   font-size: 20px;
   margin-bottom: 20px;
+  color: #f6ecec;
 }
 
 .footer-manual {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #000;
-  color: #eee;
+  color: #f6ecec;
   padding: 2rem;
   text-align: center;
 }
@@ -179,11 +182,13 @@
   text-decoration: none;
   font-weight: bold;
   margin-top: 0.5rem;
+  color: #FFD700;
 }
 
 .copy-manual {
   font-size: 0.9rem;
   margin-top: 0.3rem;
+  color: #f6ecec;
 }
 
 /* RESPONSIVE */

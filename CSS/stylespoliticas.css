@@ -1,0 +1,99 @@
+/*POLITICAS*/
+.politicas-body {
+  font-family:'Courier New', Courier, monospace;
+  background-color: #000;
+  color: #f8f8f8;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.fondo{
+  position: fixed; /* que la imagen quede fija*/
+  width: 100%; /*que ocupe todo el ancho*/
+  height: 100%; /*que ocupe todo el alto*/
+  object-fit: cover; /*la imagen se ajusta sin perder proporcion*/
+  z-index: -1; /* manda la imagen al fondo*/
+  top: 0;
+  left: 0;
+}
+
+.logo{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(229, 226, 226);
+  text-decoration: none;
+}
+
+.menu {
+    list-style-type: none;
+    align-items: center;
+}
+
+.politicas-contenido {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+  border: 1px solid #FFD700;
+  box-shadow: 0 0 20px #FFD70055;
+}
+
+.advertencia {
+  font-size: 2.5em;
+  color: #FFD700;
+  text-align: center;
+  margin-top: 20px; 
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.nodo {
+  color: #86a303;
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 30px auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.lista-politica {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 800px; 
+}
+
+.reglas p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.reglas strong {
+  color: #FFD700;
+}
+
+.politicas-final {
+  font-size: 1.1em;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  font-style: italic;
+  color: #ccc;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.copy {
+  color: #ffffff;
+  font-size: 0.9em;
+}

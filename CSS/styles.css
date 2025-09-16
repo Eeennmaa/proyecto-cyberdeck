@@ -158,6 +158,7 @@ footer {
 
 .nave-manual {
     list-style-type: none; /* le quita el circulito del orden*/
+    background: #000;
 }
 
 .bloque-youtube {
@@ -173,6 +174,7 @@ footer {
 .youtube-link {
   text-decoration: none;
   color: #FFD700;
+  background: #000;
 }
 
 /*INDICE, COMMPONENTES E IMAGEN */
@@ -203,6 +205,7 @@ footer {
 .lista-indice {
   flex: 1;
   max-width: 40%;
+  background: #000;
 }
 
 .secciones-indice {
@@ -299,7 +302,7 @@ footer {
 .footer-manual {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #000;
+  background: #000;
   color: #eee;
   padding: 2rem;
   text-align: center;

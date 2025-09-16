@@ -1,6 +1,6 @@
-body {
-  background-color: #000;
-  color: #000000;
+.body-manual {
+  background-color: #000000;
+  color: #f6ecec;
   font-family:'Courier New', Courier, monospace;
   height: 100vh; /*alto de la pantalla*/
   overflow: visible; /*muestra el contenido que se desborda*/
@@ -20,11 +20,11 @@ body {
 }
 
 .nave-manual {
-    list-style-type: none; /* le quita el circulito del orden*/
+  list-style-type: none; /* le quita el circulito del orden*/
 }
 
 .bloque-youtube {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 
 .youtube {
@@ -238,6 +238,7 @@ body {
     left: 30px;
   }
 }
+
 
 /* PANTALLAS CHICAS*/
 @media (max-width: 768px) {

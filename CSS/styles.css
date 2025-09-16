@@ -1,3 +1,13 @@
+body {
+  background-color: #000;
+  color: #f0f0f0;
+  font-family:'Courier New', Courier, monospace;
+  height: 100vh; /*alto de la pantalla*/
+  overflow: visible; /*muestra el contenido que se desborda*/
+  display: flex; /* Hace que los elementos hijos se acomoden en fila o columna y se adapten al espacio */
+  flex-direction: column; /* Acomoda los elementos hijos uno abajo del otro*/
+}
+
 .logo-manual {
   position: absolute; /* lo pongo donde yo quiero, sin que moleste a los demás elementos*/
   left: 20px; /*lo arrimo desde la izquierda*/

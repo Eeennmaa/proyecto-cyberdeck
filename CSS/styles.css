@@ -25,6 +25,17 @@
 
 .bloque-youtube {
   margin-top: 2%;
+} 
+
+.div-principal {
+  margin-top: 60px; /* bajarlo un poco desde el logo */
+  text-align: center;
+}
+
+.youtube-link {
+  font-size: 1.2em;
+  color: #FFD700;
+  text-decoration: none;
 }
 
 .youtube {
@@ -33,10 +44,7 @@
   align-items: center;
 }
 
-.youtube-link {
-  text-decoration: none;
-  color: #FFD700;
-}
+
 
 /*INDICE, COMMPONENTES E IMAGEN */
 

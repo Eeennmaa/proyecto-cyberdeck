@@ -1,0 +1,21 @@
+// Importar todos los módulos
+@import 'base/variables';
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+@import 'layout/sections';
+
+@import 'components/buttons';
+@import 'components/logo';
+@import 'components/navigation';
+@import 'components/video';
+
+@import 'pages/home';
+@import 'pages/manual';
+@import 'pages/politicas';
+
+@import 'utils/mixins';
+@import 'utils/responsive';

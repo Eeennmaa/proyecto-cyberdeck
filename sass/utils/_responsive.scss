@@ -1,0 +1,193 @@
+//PANTALLAS CHICAS INICIO//
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+    padding: 20px;
+    transform: translateY(0);
+  }
+
+  .video {
+    height: auto;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  .cyberdeck,
+  .contenido {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  .go-boton {
+    font-size: 1.5em;
+    margin: 20px auto;
+    width: 60%;
+  }
+
+  .descripcion {
+    font-size: 1.2em;
+    margin-top: 30px;
+  }
+
+  .logo {
+    font-size: 1.5em;
+    top: 10px;
+    left: 10px;
+  }
+
+  .politicas {
+    font-size: 1.2em;
+    padding: 5px;
+  }
+
+  footer {
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .copy,
+  .ig {
+    position: static;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+//PANTALLAS CHICAS MANUAL//
+@media (max-width: 768px) {
+  .secciones,
+  .bloque,
+  .footer-manual {
+    display: block;
+    padding: 1rem;
+  }
+
+  .indice-foto,
+  .img-componentes,
+  .img-diseño {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .imagen-manual,
+  .imagen-componentes,
+  .imagen-diseño,
+  .lista-indice,
+  .div-diseño,
+  .div-impresion {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .lista-manual,
+  .lista-componentes,
+  .lista-diseño,
+  .lista-impresion,
+  .lista-configuracion {
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  .inicio-manual {
+    font-size: 1.2em;
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+
+  .h3-manual {
+    font-size: 1.5em;
+  }
+
+  .youtube {
+    font-size: 1.2em;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .logo-manual {
+    font-size: 1.5em;
+    top: 10px;
+    left: 10px;
+  }
+
+  .politicas-manual {
+    font-size: 0.9em;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .footer-manual {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .copy-manual,
+  .ig-manual {
+    margin-top: 1rem;
+    font-size: 0.9em;
+  }
+}
+
+//PANTALLAS GRANDES MANUAL//
+@media (min-width: 1200px) {
+  .secciones {
+    grid-template-columns: 2fr 3fr;
+    padding: 4rem;
+    gap: 3rem;
+  }
+
+  .bloque {
+    gap: 3rem;
+    padding: 3rem 4rem;
+  }
+
+  .img-diseño,
+  .img-componentes,
+  .indice-foto {
+    height: 500px;
+    margin-left: 150px;
+  }
+
+  .h3-manual {
+    font-size: 2.5em;
+  }
+
+  .lista-manual,
+  .lista-componentes,
+  .lista-diseño {
+    font-size: 1.5em;
+  }
+
+  .inicio-manual {
+    font-size: 1.5em;
+    margin-top: 6rem;
+  }
+
+  .youtube {
+    font-size: 1.7em;
+  }
+
+  .footer-manual {
+    grid-template-columns: 2fr 1fr;
+    padding: 3rem 6rem;
+  }
+
+  .logo-manual {
+    font-size: 2.5em;
+    top: 30px;
+    left: 30px;
+  }
+}

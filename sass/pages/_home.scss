@@ -1,0 +1,47 @@
+.contenido {
+  flex: 1;
+  max-width: 40%;
+  text-align: right;
+}
+
+h1, h3 {
+  color: #e8f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 0 0 10px 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 0 0 5px 0;
+}
+
+.descripcion {
+  font-size: 1.5em;
+  margin-top: 50px;
+  color: $color-claro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.copy, .ig {
+  position: absolute;
+  bottom: 60px;
+  text-align: right;
+  font-size: 14px;
+  color: $color-subtexto;
+}
+
+.ig {
+  color: #e9ee62;
+  font-size: 1em;
+  text-decoration: none;
+}

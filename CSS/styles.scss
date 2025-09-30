@@ -1,11 +1,10 @@
-@charset "UTF-8";
 /*INDEX.HTML*/
 /* HAY QUE IR POR ORDEN POR EL TEMA DE CASCADAS*/
 /* 1. Fondo general */
 body {
   background-color: #000;
   color: #f0f0f0;
-  font-family: "Courier New", Courier, monospace;
+  font-family:'Courier New', Courier, monospace;
   height: 100vh; /*alto de la pantalla*/
   overflow: visible; /*muestra el contenido que se desborda*/
   display: flex; /* Hace que los elementos hijos se acomoden en fila o columna y se adapten al espacio */
@@ -27,7 +26,7 @@ body {
   display: block; /*se estira a lo ancho*/
   padding: 10px; /*bordesss*/
   text-align: end; /*end me pega el texto a la derecha*/
-  color: #FFD700;
+  color:#FFD700;
   border-radius: 50px;
   text-decoration: none;
   font-size: 1.5em;
@@ -42,7 +41,7 @@ main {
   padding: 40px;
 }
 
-.video {
+.video{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,7 +118,7 @@ h3 {
   padding: 5px;
   margin-top: 0px;
   position: absolute;
-  bottom: 60px;
+  bottom:60px;
 }
 
 .ig {
@@ -141,10 +140,11 @@ footer {
 }
 
 .cyber {
-  list-style-type: none; /* le quita el circulito del orden*/
+    list-style-type: none; /* le quita el circulito del orden*/
 }
 
 /* SECCION MANUAL*/
+
 .logo-manual {
   position: absolute; /* lo pongo donde yo quiero, sin que moleste a los demás elementos*/
   left: 20px; /*lo arrimo desde la izquierda*/
@@ -157,12 +157,12 @@ footer {
 }
 
 .nave-manual {
-  list-style-type: none; /* le quita el circulito del orden*/
-  background: #000;
+    list-style-type: none; /* le quita el circulito del orden*/
+    background: #000;
 }
 
 .bloque-youtube {
-  margin-top: 2%;
+    margin-top: 2%;
 }
 
 .youtube {
@@ -178,6 +178,7 @@ footer {
 }
 
 /*INDICE, COMMPONENTES E IMAGEN */
+
 .secciones {
   display: flex;
   justify-content: space-between;
@@ -189,7 +190,7 @@ footer {
 .imagen-manual {
   flex: 1;
   max-width: 100%;
-  margin-left: 100px;
+  margin-left: 100px
 }
 
 .indice-foto {
@@ -209,7 +210,7 @@ footer {
 
 .secciones-indice {
   font-size: 2em;
-  font-family: "Times New Roman", Times, serif;
+  font-family:'Times New Roman', Times, serif;
   margin-bottom: 1rem; /*espacio entre secciones y la lista */
 }
 
@@ -241,11 +242,12 @@ footer {
 
 .h3-manual {
   font-size: 2em;
-  font-family: "Times New Roman", Times, serif;
+  font-family:'Times New Roman', Times, serif;
   text-align: center;
 }
 
 /*COMPONENTES*/
+
 .lista-componentes {
   font-size: 30px;
   margin-bottom: 20px;
@@ -267,6 +269,7 @@ footer {
 }
 
 /*DISEÑO*/
+
 .imagen-diseño {
   flex: 1;
   max-width: 40%;
@@ -274,22 +277,21 @@ footer {
 
 .img-diseño {
   width: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 400px;
+  object-fit: cover;
+  height:400px;
   margin-left: 200px; /* empuja los objectos a la derecha */
 }
 
 .p-diseño {
   font-size: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   color: #FFD700;
 }
 
 .p-modelado {
   font-size: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .lista-diseño {
@@ -321,6 +323,7 @@ footer {
 }
 
 /* RESPONSIVE MANUAL */
+
 /* PANTALLAS GRANDES*/
 @media (min-width: 1200px) {
   .secciones {
@@ -328,41 +331,50 @@ footer {
     padding: 4rem;
     gap: 3rem;
   }
+
   .bloque {
     gap: 3rem;
     padding: 3rem 4rem;
   }
+
   .img-diseño,
   .img-componentes,
   .indice-foto {
     height: 500px;
     margin-left: 150px;
   }
+
   .h3-manual {
     font-size: 2.5em;
   }
+
   .lista-manual,
   .lista-componentes,
   .lista-diseño {
     font-size: 1.5em;
   }
+
   .inicio-manual {
     font-size: 1.5em;
     margin-top: 6rem;
   }
+
   .youtube {
     font-size: 1.7em;
   }
+
   .footer-manual {
     grid-template-columns: 2fr 1fr;
     padding: 3rem 6rem;
   }
+
   .logo-manual {
     font-size: 2.5em;
     top: 30px;
     left: 30px;
   }
 }
+
 /* PANTALLAS CHICAS*/
 @media (max-width: 768px) {
   .secciones,
@@ -371,6 +383,7 @@ footer {
     display: block;
     padding: 1rem;
   }
+
   .indice-foto,
   .img-componentes,
   .img-diseño {
@@ -378,6 +391,7 @@ footer {
     height: auto;
     margin: 0 auto;
   }
+
   .imagen-manual,
   .imagen-componentes,
   .imagen-diseño,
@@ -388,6 +402,7 @@ footer {
     margin: 0 auto;
     text-align: center;
   }
+
   .lista-manual,
   .lista-componentes,
   .lista-diseño,
@@ -396,41 +411,50 @@ footer {
     font-size: 1.1em;
     text-align: center;
   }
+
   .inicio-manual {
     font-size: 1.2em;
     margin-top: 2rem;
     padding: 0 1rem;
   }
+
   .h3-manual {
     font-size: 1.5em;
   }
+
   .youtube {
     font-size: 1.2em;
     padding: 1rem;
     text-align: center;
   }
+
   .logo-manual {
     font-size: 1.5em;
     top: 10px;
     left: 10px;
   }
+
   .politicas-manual {
     font-size: 0.9em;
     padding: 5px;
     text-align: center;
   }
+
   .footer-manual {
     grid-template-columns: 1fr;
     gap: 1rem;
     padding: 1rem;
   }
+
   .copy-manual,
   .ig-manual {
     margin-top: 1rem;
     font-size: 0.9em;
   }
 }
+
 /*RESPONSIVE PANTALLA DE INICIO*/
+
 /*PANTALLAS CHICAS */
 @media screen and (max-width: 768px) {
   main {
@@ -438,54 +462,67 @@ footer {
     padding: 20px;
     transform: translateY(0); /* Evita que se suba demasiado en mobile */
   }
+
   .video {
     height: auto;
     margin-bottom: 20px;
     max-width: 100%;
   }
+
   .cyberdeck {
     max-width: 100%;
     margin: 0 auto;
   }
+
   .contenido {
     max-width: 100%;
     text-align: center;
   }
+
   h1 {
     font-size: 3em;
   }
+
   h3 {
     font-size: 1.2em;
   }
+
   .go-boton {
     font-size: 1.5em;
     margin: 20px auto;
     width: 60%;
   }
+
   .descripcion {
     font-size: 1.2em;
     margin-top: 30px;
   }
+
   .logo {
     font-size: 1.5em;
     top: 10px;
     left: 10px;
   }
+
   .politicas {
     font-size: 1.2em;
     padding: 5px;
   }
+
   footer {
     height: auto;
     padding: 20px 10px;
   }
+
   .copy, .ig {
     position: static;
     text-align: center;
     margin-top: 10px;
   }
 }
+
 /* RESPONSIVE MANUAL*/
+
 /* PANTALLAS GRANDES*/
 @media (min-width: 1200px) {
   .secciones {
@@ -493,41 +530,51 @@ footer {
     padding: 4rem;
     gap: 3rem;
   }
+
   .bloque {
     gap: 3rem;
     padding: 3rem 4rem;
   }
+
   .img-diseño,
   .img-componentes,
   .indice-foto {
     height: 500px;
     margin-left: 150px;
   }
+
   .h3-manual {
     font-size: 2.5em;
   }
+
   .lista-manual,
   .lista-componentes,
   .lista-diseño {
     font-size: 1.5em;
   }
+
   .inicio-manual {
     font-size: 1.5em;
     margin-top: 6rem;
   }
+
   .youtube {
     font-size: 1.7em;
   }
+
   .footer-manual {
     grid-template-columns: 2fr 1fr;
     padding: 3rem 6rem;
   }
+
   .logo-manual {
     font-size: 2.5em;
     top: 30px;
     left: 30px;
   }
 }
+
+
 /* PANTALLAS CHICAS*/
 @media (max-width: 768px) {
   .secciones,
@@ -536,6 +583,7 @@ footer {
     display: block;
     padding: 1rem;
   }
+
   .indice-foto,
   .img-componentes,
   .img-diseño {
@@ -543,6 +591,7 @@ footer {
     height: auto;
     margin: 0 auto;
   }
+
   .imagen-manual,
   .imagen-componentes,
   .imagen-diseño,
@@ -553,6 +602,7 @@ footer {
     margin: 0 auto;
     text-align: center;
   }
+
   .lista-manual,
   .lista-componentes,
   .lista-diseño,
@@ -561,37 +611,44 @@ footer {
     font-size: 1.1em;
     text-align: center;
   }
+
   .inicio-manual {
     font-size: 1.2em;
     margin-top: 2rem;
     padding: 0 1rem;
   }
+
   .h3-manual {
     font-size: 1.5em;
   }
+
   .youtube {
     font-size: 1.2em;
     padding: 1rem;
     text-align: center;
   }
+
   .logo-manual {
     font-size: 1.5em;
     top: 10px;
     left: 10px;
   }
+
   .politicas-manual {
     font-size: 0.9em;
     padding: 5px;
     text-align: center;
   }
+
   .footer-manual {
     grid-template-columns: 1fr;
     gap: 1rem;
     padding: 1rem;
   }
+
   .copy-manual,
   .ig-manual {
     margin-top: 1rem;
     font-size: 0.9em;
   }
-}/*# sourceMappingURL=styles.css.map */
+}

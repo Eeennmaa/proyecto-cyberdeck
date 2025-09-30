@@ -1,0 +1,31 @@
+h1 {
+  font-size: 5em;
+  margin-top: 0px;
+  margin-bottom: $spacing-sm;
+  color: $color-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: $color-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.descripcion {
+  font-size: 1.5em;
+  margin-top: 50px;
+  color: $color-text;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

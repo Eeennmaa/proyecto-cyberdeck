@@ -1,0 +1,90 @@
+.politicas-body {
+  font-family: $font-primary;
+  background-color: $color-primary;
+  color: #f8f8f8;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.fondo {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.politicas-contenido {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+  border: 1px solid $color-accent;
+  box-shadow: 0 0 20px #{adjust-color($color-accent, $alpha: 0.33)};
+}
+
+.advertencia {
+  font-size: 2.5em;
+  color: $color-accent;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.nodo {
+  color: #86a303;
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 30px auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.lista-politica {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.reglas {
+  p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  strong {
+    color: $color-accent;
+  }
+}
+
+.politicas-final {
+  font-size: 1.1em;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  font-style: italic;
+  color: #ccc;
+}
+
+// Footer específico para políticas
+footer {
+  padding: 20px;
+  text-align: center;
+
+  .copy {
+    color: $color-text;
+    font-size: 0.9em;
+  }
+}
+
+.cyber {
+  list-style-type: none;
+}

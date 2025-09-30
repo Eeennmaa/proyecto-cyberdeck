@@ -1,0 +1,14 @@
+.logo {
+  position: absolute;
+  left: $spacing-md;
+  top: $spacing-md;
+  font-size: 2em;
+  font-weight: bold;
+  background: $color-primary;
+  color: rgb(229, 226, 226);
+  text-decoration: none;
+}
+
+.logo-manual {
+  @extend .logo;
+}

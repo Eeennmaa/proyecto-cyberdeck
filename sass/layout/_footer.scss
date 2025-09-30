@@ -1,0 +1,29 @@
+footer {
+  position: relative;
+  height: 100px;
+}
+
+.copy {
+  text-align: right;
+  padding: $spacing-md;
+  font-size: 14px;
+  color: $color-gray;
+  display: block;
+  padding: 5px;
+  margin-top: 0px;
+  position: absolute;
+  bottom: $spacing-xl;
+}
+
+.ig {
+  font-size: 1em;
+  margin: 0px;
+  color: $color-ig;
+  display: block;
+  align-items: center;
+  text-align: right;
+  text-decoration: none;
+  padding: 0px;
+  position: absolute;
+  bottom: $spacing-xl;
+}

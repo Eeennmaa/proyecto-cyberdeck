@@ -1,6 +1,6 @@
 /*POLITICAS*/
 .politicas-body {
-  font-family: "Courier New", Courier, monospace;
+  font-family:'Courier New', Courier, monospace;
   background-color: #000;
   color: #f8f8f8;
   padding: 0;
@@ -8,18 +8,17 @@
   overflow-x: hidden;
 }
 
-.fondo {
+.fondo{
   position: fixed; /* que la imagen quede fija*/
   width: 100%; /*que ocupe todo el ancho*/
   height: 100%; /*que ocupe todo el alto*/
-  -o-object-fit: cover;
-     object-fit: cover; /*la imagen se ajusta sin perder proporcion*/
+  object-fit: cover; /*la imagen se ajusta sin perder proporcion*/
   z-index: -1; /* manda la imagen al fondo*/
   top: 0;
   left: 0;
 }
 
-.logo {
+.logo{
   position: absolute;
   left: 20px;
   top: 20px;
@@ -30,8 +29,8 @@
 }
 
 .menu {
-  list-style-type: none;
-  align-items: center;
+    list-style-type: none;
+    align-items: center;
 }
 
 .politicas-contenido {
@@ -40,14 +39,14 @@
   max-width: 900px;
   margin: auto;
   border: 1px solid #FFD700;
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3333333333);
+  box-shadow: 0 0 20px #FFD70055;
 }
 
 .advertencia {
   font-size: 2.5em;
   color: #FFD700;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 20px; 
   margin-bottom: 0px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -66,7 +65,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 800px; 
 }
 
 .reglas p {
@@ -97,4 +96,4 @@ footer {
 .copy {
   color: #ffffff;
   font-size: 0.9em;
-}/*# sourceMappingURL=stylespoliticas.css.map */
+}

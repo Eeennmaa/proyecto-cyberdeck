@@ -1,0 +1,82 @@
+// Mixin para flexbox centrado
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-center-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+// Mixin para posicionamiento absoluto
+@mixin absolute-position($left: null, $top: null, $right: null, $bottom: null) {
+  position: absolute;
+  @if $left { left: $left; }
+  @if $top { top: $top; }
+  @if $right { right: $right; }
+  @if $bottom { bottom: $bottom; }
+}
+
+// Mixin para botones con gradiente
+@mixin gradient-button($color1: $color-accent, $color2: $color-yellow-light) {
+  background: linear-gradient(to right, $color1, $color2);
+  color: $color-primary;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 40px;
+  text-align: center;
+}
+
+// Mixin para enlaces de navegación
+@mixin nav-link($color: $color-accent) {
+  text-decoration: none;
+  color: $color;
+  background: $color-primary;
+}
+
+// Mixin para imágenes responsive
+@mixin responsive-image($max-width: 100%, $height: auto) {
+  max-width: $max-width;
+  width: 100%;
+  height: $height;
+}
+
+// Mixin para contenedores flex
+@mixin flex-container($direction: row, $justify: space-between, $align: flex-start) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  gap: 2rem;
+}
+
+// Mixin para media queries
+@mixin mobile {
+  @media (max-width: #{$breakpoint-mobile}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$breakpoint-desktop}) {
+    @content;
+  }
+}
+
+// Mixin para listas sin estilo
+@mixin reset-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+// Mixin para secciones de manual
+@mixin manual-section($font-size: 2em, $font-family: $font-secondary) {
+  font-size: $font-size;
+  font-family: $font-family;
+  text-align: center;
+  margin-bottom: 1rem;
+}
